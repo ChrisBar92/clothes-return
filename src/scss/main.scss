@@ -1,0 +1,9 @@
+@import './settings/reset';
+@import './settings/fonts';
+@import './settings/colors';
+
+@import './base/base';
+
+body {
+	background-color: red;
+}
