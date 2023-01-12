@@ -1,0 +1,32 @@
+.header {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 6rem;
+
+	&__img {
+		grid-column: 1/2;
+		background-image: url('../../images/Hero Image@2x.png');
+		background-size: cover;
+		background-position: right;
+	}
+
+	&__box {
+		display: grid;
+		grid-column: 2/3;
+		text-align: center;
+		grid-row: 1/-1;
+		align-content: center;
+		justify-content: space-between;
+
+		&-buttons {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+		}
+        
+		&-btn {
+			width: 45%;
+		}
+	}
+}

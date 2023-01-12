@@ -1,14 +1,18 @@
 .nav {
 	position: relative;
+	width: 100%;
+	// height: 13rem;
 
 	&__container {
 		position: fixed;
-		right: 14rem;
-		width: 100%;
-		max-width: 1900px;
+		box-shadow: 0rem 0.1rem 1rem rgba(66, 68, 90, 1);
+		padding-right: 14rem;
+		width: 190rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		background-color: $main-color;
+		z-index: 100;
 	}
 
 	&__topMenu {
@@ -21,6 +25,7 @@
 		&-item {
 			padding: 1rem;
 			cursor: pointer;
+			transition: transform 0.3s;
 			a {
 				color: $secondary-text-color;
 				text-decoration: none;
@@ -30,17 +35,21 @@
 			&-registration {
 				border: 0.075rem solid $registration-border-color;
 			}
+			&:hover {
+				transform: scale(1.1);
+			}
 		}
 	}
 
 	&__list {
 		display: flex;
 		justify-content: flex-end;
+		padding-bottom: 2rem;
 
 		&-item {
 			padding: 0.9rem 2rem;
-			color: $main-text-color;
 			font-size: 1.8rem;
+			transition: transform 0.3s;
 			outline: none;
 			cursor: pointer;
 
@@ -50,6 +59,10 @@
 
 			&:first-of-type {
 				border: 0.075rem solid $main-text-color;
+			}
+
+			&:hover {
+				transform: scale(1.1);
 			}
 		}
 	}

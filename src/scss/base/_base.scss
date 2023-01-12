@@ -6,6 +6,7 @@ body {
 	font-family: $font-base;
 	background-color: $main-color;
 	height: 200vh;
+	color: $main-text-color;
 }
 
 .wrapper {
@@ -16,4 +17,61 @@ body {
 
 .right-margin-section {
 	margin-right: 14rem;
+}
+
+.heading-section {
+	font-size: 3.8rem;
+	position: relative;
+
+	&::before {
+		position: absolute;
+		left: 50%;
+		bottom: -6rem;
+		width: 25rem;
+		height: 3rem;
+		background-image: url('../../images/Decoration.svg');
+		background-size: cover;
+		transform: translateX(-50%);
+		content: '';
+	}
+}
+
+.btn-cta {
+	position: relative;
+	margin-top: 12rem;
+	width: auto;
+	height: 12rem;
+	width: 100%;
+	max-width: 31rem;
+	padding: 1.3rem;
+	border: 0.075rem solid $main-text-color;
+	font-size: 3.6rem;
+	overflow: hidden;
+	background: none;
+	outline: none;
+	transition: 0.3s;
+	cursor: pointer;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: -40%;
+		left: -80%;
+		height: 190%;
+		width: 20rem;
+		transition: 0.5s;
+		transform: rotate(20deg);
+		background-image: linear-gradient(-90deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+	}
+	&:hover::before {
+		left: 110%;
+	}
+
+	a {
+		text-decoration: none;
+		color: $main-text-color;
+		font-family: $font-base;
+		font-weight: 300;
+		outline: none;
+	}
 }
