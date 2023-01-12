@@ -4,12 +4,16 @@ html {
 
 body {
 	font-family: $font-base;
-	font-size: 2rem;
+	background-color: $main-color;
+	height: 200vh;
 }
 
-.basetest {
-	font-size: 3rem;
-	border: 1px solid #fff;
-	height: 10em;
-	width: 10em;
+.wrapper {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.right-margin-section {
+	margin-right: 14rem;
 }
