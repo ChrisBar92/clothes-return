@@ -10,7 +10,7 @@ const SimpleSteps = () => {
 	return (
 		<section className="simpleSteps" id="simpleSteps">
 			<div className="simpleSteps__container">
-				<div className="heading-section">Wystarczą 4 proste kroki</div>
+				<p className="heading-section">Wystarczą 4 proste kroki</p>
 				<div className="img-decoration"></div>
 				<div className="simpleSteps__boxes">
 					<div className="simpleSteps__box">

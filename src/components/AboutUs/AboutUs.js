@@ -4,9 +4,9 @@ import React from 'react'
 
 const AboutUs = () => {
 	return (
-		<section className="aboutUs" id="aboutUs">
+		<section className="aboutUs container" id="aboutUs">
 			<div className="aboutUs__box aboutUs__box--left">
-				<div className="heading-section">O nas</div>
+				<p className="heading-section">O nas</p>
 				<div className="img-decoration"></div>
 				<p className="aboutUs__box-text">
 					Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea

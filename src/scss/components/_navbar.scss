@@ -1,16 +1,16 @@
 .nav {
 	position: relative;
 	height: 14.8rem;
-
+	
 	&__container {
 		position: fixed;
-		box-shadow: 0rem 0.1rem 1rem rgba(66, 68, 90, 1);
 		padding-right: 14rem;
 		width: 100%;
 		max-width: 190rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		box-shadow: 0rem 0.1rem 1rem rgba(66, 68, 90, 1);
 		background-color: $main-color;
 		z-index: 100;
 	}
@@ -26,18 +26,20 @@
 			padding: 1rem;
 			cursor: pointer;
 			transition: transform 0.3s;
-			a {
-				color: $secondary-text-color;
-				text-decoration: none;
-				outline: none;
-			}
 
 			&-registration {
 				border: 0.075rem solid $registration-border-color;
 			}
+
 			&:hover {
 				transform: scale(1.1);
 			}
+		}
+
+		&-link {
+			color: $secondary-text-color;
+			text-decoration: none;
+			outline: none;
 		}
 	}
 

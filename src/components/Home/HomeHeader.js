@@ -7,7 +7,7 @@ const HomeHeader = () => {
 			<div className="header__img"></div>
 			<div className="header__box">
 				<h1 className="header__box-title heading-section">
-					Zacznij pomagać!<span>Oddaj niechciane rzeczy w zaufane ręce</span>
+					Zacznij pomagać!<span>Oddaj niechciane rzeczy w zaufane ręce</span> 
 				</h1>
 				<div className="header__box-img img-decoration"></div>
 				<div className="header__box-buttons">

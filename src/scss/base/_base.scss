@@ -6,8 +6,13 @@ html {
 body {
 	font-family: $font-base;
 	background-color: $main-color;
-	height: 200vh;
 	color: $main-text-color;
+}
+
+.container {
+	width: 100%;
+	max-width: 190rem;
+	margin: 0 auto;
 }
 
 .wrapper {
@@ -17,7 +22,7 @@ body {
 }
 
 .right-margin-section {
-	padding-right: 14rem;
+	margin-right: 14rem;
 	width: 100%;
 	max-width: 176rem;
 }

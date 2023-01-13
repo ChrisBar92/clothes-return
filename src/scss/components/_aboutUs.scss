@@ -1,7 +1,4 @@
 .aboutUs {
-	width: 100%;
-	max-width: 190rem;
-	margin: 0 auto;
 	display: flex;
 	background-color: $background-color;
 
@@ -11,8 +8,11 @@
 		flex-direction: column;
 		align-items: center;
 
-		.heading-section {
+		&--left {
 			padding-top: 18.6rem;
+		}
+
+		.heading-section {
 			padding-bottom: 3.2rem;
 		}
 
