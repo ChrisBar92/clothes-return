@@ -9,7 +9,7 @@ const HomeHeader = () => {
 				<h2 className="header__box-title heading-section">
 					Zacznij pomagać!<br></br> Oddaj niechciane rzeczy w zaufane ręce
 				</h2>
-				<div className="header__box-img"></div>
+				<div className="header__box-img img-decoration"></div>
 				<div className="header__box-buttons">
 					<button className="header__box-btn btn-cta">
 						<Link className="links" to="logowanie">
