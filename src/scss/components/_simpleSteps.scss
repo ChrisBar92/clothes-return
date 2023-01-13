@@ -1,0 +1,62 @@
+.simpleSteps {
+	width: 100%;
+	max-width: 190rem;
+	margin: 0 auto;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+
+		.heading-section {
+			padding-top: 5.5rem;
+			padding-bottom: 2.5rem;
+		}
+
+		.btn-cta {
+			margin: 3.5rem 0rem 8rem;
+		}
+	}
+
+	&__boxes {
+		width: 100%;
+		background-color: $background-color;
+		margin-top: 3.5rem;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__box {
+		width: 15%;
+		padding: 7.5rem 2rem 8rem;
+		&-img {
+			height: 8.5rem;
+			width: 8.5rem;
+		}
+		&-header {
+			position: relative;
+			padding-top: 0.7rem;
+			font-size: 1.8rem;
+			line-height: 2.4rem;
+
+			&::before {
+				position: absolute;
+				bottom: -1rem;
+				left: 50%;
+				width: 7rem;
+				height: 0.1rem;
+				transform: translateX(-50%);
+				background-color: $underline-color;
+				content: '';
+			}
+		}
+
+		&-text {
+			padding: 0rem 2rem;
+			padding-top: 1.7rem;
+			font-size: 1.6rem;
+		}
+	}
+}

@@ -6,7 +6,8 @@
 		position: fixed;
 		// box-shadow: 0rem 0.1rem 1rem rgba(66, 68, 90, 1);
 		padding-right: 14rem;
-		width: 190rem;
+		width: 100%;
+		max-width: 190rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

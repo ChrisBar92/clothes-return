@@ -3,6 +3,7 @@ import { Link, Outlet } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar'
 import HomeHeader from './HomeHeader'
 import HomeThreeColumns from './HomeThreeColumns'
+import SimpleSteps from '../SimpleSteps/SimpleSteps'
 
 const Home = () => {
 	return (
@@ -10,6 +11,7 @@ const Home = () => {
 			<Navbar />
 			<HomeHeader />
 			<HomeThreeColumns />
+			<SimpleSteps />
 			<Outlet />
 		</div>
 	)

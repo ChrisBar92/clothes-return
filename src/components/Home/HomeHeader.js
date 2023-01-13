@@ -11,12 +11,12 @@ const HomeHeader = () => {
 				</h2>
 				<div className="header__box-img img-decoration"></div>
 				<div className="header__box-buttons">
-					<button className="header__box-btn btn-cta">
+					<button className="header__box-btn header__box-btn--left btn-cta">
 						<Link className="links" to="logowanie">
 							Oddaj rzeczy
 						</Link>
 					</button>
-					<button className="header__box-btn btn-cta">
+					<button className="header__box-btn header__box-btn--right btn-cta">
 						<Link className="links" to="logowanie">
 							Zorganizuj zbiórkę
 						</Link>

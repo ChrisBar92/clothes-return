@@ -4,7 +4,7 @@ import UserMenu from './UserMenu'
 
 const Navbar = () => {
 	return (
-		<nav className="nav right-margin-section" id="nav">
+		<nav className="nav right-margin-section" id="/">
 			<div className="nav__container">
 				<UserMenu />
 
@@ -12,7 +12,7 @@ const Navbar = () => {
 					<Link activeClass="active" className="nav__list-item" to="/" offset={-80} duration={300}>
 						Start
 					</Link>
-					<Link activeClass="active" className="nav__list-item" to="simpleSteps" offset={-80} duration={300}>
+					<Link activeClass="active" className="nav__list-item" to="simpleSteps" offset={-148} duration={300}>
 						O co chodzi?
 					</Link>
 					<Link activeClass="active" className="nav__list-item" to="aboutUs" offset={-80} duration={300}>
