@@ -6,9 +6,9 @@ const HomeHeader = () => {
 		<header className="header right-margin-section">
 			<div className="header__img"></div>
 			<div className="header__box">
-				<h2 className="header__box-title heading-section">
-					Zacznij pomagać!<br></br> Oddaj niechciane rzeczy w zaufane ręce
-				</h2>
+				<h1 className="header__box-title heading-section">
+					Zacznij pomagać!<span>Oddaj niechciane rzeczy w zaufane ręce</span>
+				</h1>
 				<div className="header__box-img img-decoration"></div>
 				<div className="header__box-buttons">
 					<button className="header__box-btn header__box-btn--left btn-cta">

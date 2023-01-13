@@ -1,0 +1,40 @@
+.aboutUs {
+	width: 100%;
+	max-width: 190rem;
+	margin: 0 auto;
+	display: flex;
+	background-color: $background-color;
+
+	&__box {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.heading-section {
+			padding-top: 18.6rem;
+			padding-bottom: 3.2rem;
+		}
+
+		&-text {
+			padding: 5.5rem 12rem 4rem;
+			font-size: 3rem;
+			line-height: 5.4rem;
+			text-align: center;
+		}
+
+		&-signature {
+			width: 100%;
+			padding-bottom: 18.5rem;
+			padding-right: 12rem;
+			text-align: right;
+		}
+
+		&--right {
+			background-image: url('../../images/People@2x.png');
+			background-size: cover;
+			width: 50%;
+			height: auto;
+		}
+	}
+}

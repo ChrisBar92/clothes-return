@@ -1,5 +1,6 @@
 .header {
 	height: 100vh;
+	width: 100%;
 	display: flex;
 	gap: 6rem;
 
@@ -20,6 +21,11 @@
 
 		&-title {
 			margin-bottom: 2.5rem;
+
+			span {
+				display: block;
+				
+			}
 		}
 
 		&-buttons {

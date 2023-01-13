@@ -1,9 +1,10 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
 import icon1 from '../../images/Icon-1@2x.png'
 import icon2 from '../../images/Icon-2@2x.png'
 import icon3 from '../../images/Icon-3@2x.png'
 import icon4 from '../../images/Icon-4@2x.png'
 
-import React from 'react'
 
 const SimpleSteps = () => {
 	return (
@@ -33,7 +34,11 @@ const SimpleSteps = () => {
 						<p className="simpleSteps__box-text">kurier przyjedzie w dogodnym terminie</p>
 					</div>
 				</div>
-				<div className="btn-cta">Oddaj rzeczy</div>
+				<button className="btn-cta">
+					<Link className="links" to="logowanie">
+						Oddaj rzeczy
+					</Link>
+				</button>
 			</div>
 		</section>
 	)

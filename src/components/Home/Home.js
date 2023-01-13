@@ -4,16 +4,18 @@ import Navbar from '../Navbar/Navbar'
 import HomeHeader from './HomeHeader'
 import HomeThreeColumns from './HomeThreeColumns'
 import SimpleSteps from '../SimpleSteps/SimpleSteps'
+import AboutUs from '../AboutUs/AboutUs'
 
 const Home = () => {
 	return (
-		<div>
+		<>
 			<Navbar />
 			<HomeHeader />
 			<HomeThreeColumns />
 			<SimpleSteps />
+			<AboutUs/>
 			<Outlet />
-		</div>
+		</>
 	)
 }
 
