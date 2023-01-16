@@ -1,0 +1,86 @@
+.whoWeHelp {
+	padding-top: 7rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.heading-section {
+		padding-bottom: 4.2rem;
+	}
+
+	&__box {
+		padding-top: 5rem;
+		width: 100%;
+		max-width: 120rem;
+
+		&-title {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			&-recipient {
+				margin: 0rem 5rem;
+				padding: 2.3rem 4.2rem;
+				transition: background-color 0.3s;
+				line-height: 3.3rem;
+				font-size: 2.4rem;
+				background: none;
+				border: 0.075rem solid transparent;
+				outline: none;
+
+				&:hover {
+					background-color: $background-color;
+				}
+
+				&:focus {
+					border: 0.075rem solid $main-text-color;
+				}
+			}
+		}
+
+		&-header {
+			margin: 0 auto;
+			width: 50%;
+			padding-top: 7rem;
+			font-size: 2.2rem;
+			text-align: center;
+		}
+
+		&-list {
+			margin-top: 6.6rem;
+			height: 8rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			font-family: $font-alt;
+            border-bottom: 0.075rem solid $main-text-color ;
+
+			&-left {
+				width: 50%;
+
+				&-title {
+					font-size: 2.6rem;
+					font-weight: 300;
+                    padding-bottom: 0.6rem;
+				}
+
+				&-description {
+					font-size: 1.8rem;
+					font-weight: 300;
+					font-style: italic;
+				}
+			}
+
+			&-right {
+				width: 50%;
+				text-align: right;
+
+				&-stuff {
+					font-size: 1.8rem;
+					font-weight: lighter;
+				}
+			}
+		}
+	}
+}
