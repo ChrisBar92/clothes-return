@@ -1,113 +1,212 @@
 const Organizations = [
 	{
-		recipient: 'Fundacjom',
-		title:
-			'W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.',
+		id: 2,
+		name: 'Ervin Howell',
+		title: 'Antonette',
+		recipient: 'Shanna@melissa.tv',
 		list: [
 			{
-				name: 'Fundacja "Dbam o Zdrowie"',
-				description: 'Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.',
-				stuff: 'ubrania, jedzenie, sprzęt AGD, meble, zabawki',
-			},
-			{
-				name: 'Fundacja "Dla dzieci"',
-				description: 'Cel i misja: Pomoc dzieciom z ubogich rodzin.',
-				stuff: 'ubrania, meble, zabawki',
-			},
-			{
-				name: 'Fundacja "Bez domu"',
-				description: 'Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.',
-				stuff: 'ubrania, jedzenie, ciepłe koce',
-			},
-			{
-				name: 'Fundacja "Dzieci są ważne"',
-				description: 'Cel i misja: Pomoc dzieciom znajdującym się w trudnej sytuacji życiowej.',
-				stuff: 'buty, ubrania, jedzenie, sprzęt AGD, zabawki',
-			},
-			{
-				name: 'Fundacja "Zwierzakom"',
-				description: 'Cel i misja: Pomoc zwierzakom z ubogich rodzin.',
-				stuff: 'jedzenie, koce, stare ubrania',
-			},
-			{
-				name: 'Fundacja "Pomoc seniorom"',
-				description: 'Cel i misja: Pomoc dla osób starszych.',
-				stuff: 'znowu ubrania, jedzenie, ciepłe koce, książki',
-			},
-			{
-				name: 'Fundacja "Znowu dbam o Zdrowie"',
-				description: 'Cel i misja: Znowu pomoc osobom znajdującym się w trudnej sytuacji życiowej.',
-				stuff: 'znowu ubrania, jedzenie, sprzęt AGD, meble, zabawki',
-			},
-			{
-				name: 'Fundacja "Znowu dla dzieci"',
-				description: 'Cel i misja: Znowu pomoc dzieciom z ubogich rodzin.',
-				stuff: 'znowu ubrania, meble, zabawki',
+				name: 'Victor Plains',
+				suite: 'Suite 879',
+				city: 'Wisokyburgh',
 			},
 			{
 				name: 'Fundacja "Znowu bez domu"',
-				description: 'Cel i misja: Znowu pomoc dla osób nie posiadających miejsca zamieszkania.',
-				stuff: 'znowu ubrania, jedzenie, ciepłe koce',
+				suite: 'Cel i misja: Znowu pomoc dla osób nie posiadających miejsca zamieszkania.',
+				city: 'znowu ubrania, jedzenie, ciepłe koce',
 			},
 		],
+		phone: '010-692-6593 x09125',
+		website: 'anastasia.net',
+		company: {
+			name: 'Deckow-Crist',
+			catchPhrase: 'Proactive didactic contingency',
+			bs: 'synergize scalable supply-chains',
+		},
 	},
 	{
-		recipient: 'Organizacjom pozarządowym',
-		title:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
-		list: [
-			{
-				name: 'Organizacja "Lorem Ipsum 1"',
-				description: '1 Quis varius quam quisque id diam vel quam elementum pulvinar.',
-				stuff: '1 Egestas, sed, tempus',
+		id: 3,
+		name: 'Clementine Bauch',
+		title: 'Samantha',
+		recipient: 'Nathan@yesenia.net',
+		list: {
+			name: 'Douglas Extension',
+			suite: 'Suite 847',
+			city: 'McKenziehaven',
+			zipcode: '59590-4157',
+			geo: {
+				lat: '-68.6102',
+				lng: '-47.0653',
 			},
-			{
-				name: 'Organizacja "Lorem Ipsum 2"',
-				description: '2 Quis varius quam quisque id diam vel quam elementum pulvinar.',
-				stuff: '2 Egestas, sed, tempus',
-			},
-			{
-				name: 'Organizacja "Lorem Ipsum 3"',
-				description: '3 Quis varius quam quisque id diam vel quam elementum pulvinar.',
-				stuff: '3 Egestas, sed, tempus',
-			},
-			{
-				name: 'Organizacja "Lorem Ipsum 4"',
-				description: '4 Quis varius quam quisque id diam vel quam elementum pulvinar.',
-				stuff: '4 Egestas, sed, tempus',
-			},
-			{
-				name: 'Organizacja "Lorem Ipsum 5"',
-				description: '5 Quis varius quam quisque id diam vel quam elementum pulvinar.',
-				stuff: '5 Egestas, sed, tempus',
-			},
-			{
-				name: 'Organizacja "Lorem Ipsum 6"',
-				description: '6 Quis varius quam quisque id diam vel quam elementum pulvinar.',
-				stuff: '6 Egestas, sed, tempus',
-			},
-		],
+		},
+		phone: '1-463-123-4447',
+		website: 'ramiro.info',
+		company: {
+			name: 'Romaguera-Jacobson',
+			catchPhrase: 'Face to face bifurcated interface',
+			bs: 'e-enable strategic applications',
+		},
 	},
 	{
-		recipient: 'Lokalnym zbiórkom',
-		title:
-			'Another Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
-		list: [
-			{
-				name: 'Zbiórka "Lorem Ipsum 1"',
-				description: '1 Quis varius quam quisque id diam vel quam elementum pulvinar.',
-				stuff: '1 Egestas, sed, tempus',
+		id: 4,
+		name: 'Patricia Lebsack',
+		title: 'Karianne',
+		recipient: 'Julianne.OConner@kory.org',
+		list: {
+			name: 'Hoeger Mall',
+			suite: 'Apt. 692',
+			city: 'South Elvis',
+			zipcode: '53919-4257',
+			geo: {
+				lat: '29.4572',
+				lng: '-164.2990',
 			},
-			{
-				name: 'Zbiórka "Lorem Ipsum 2"',
-				description: '2 Quis varius quam quisque id diam vel quam elementum pulvinar.',
-				stuff: '2 Egestas, sed, tempus',
+		},
+		phone: '493-170-9623 x156',
+		website: 'kale.biz',
+		company: {
+			name: 'Robel-Corkery',
+			catchPhrase: 'Multi-tiered zero tolerance productivity',
+			bs: 'transition cutting-edge web services',
+		},
+	},
+	{
+		id: 5,
+		name: 'Chelsey Dietrich',
+		title: 'Kamren',
+		recipient: 'Lucio_Hettinger@annie.ca',
+		list: {
+			name: 'Skiles Walks',
+			suite: 'Suite 351',
+			city: 'Roscoeview',
+			zipcode: '33263',
+			geo: {
+				lat: '-31.8129',
+				lng: '62.5342',
 			},
-			{
-				name: 'Zbiórka "Lorem Ipsum 3"',
-				description: '3 Quis varius quam quisque id diam vel quam elementum pulvinar.',
-				stuff: '3 Egestas, sed, tempus',
+		},
+		phone: '(254)954-1289',
+		website: 'demarco.info',
+		company: {
+			name: 'Keebler LLC',
+			catchPhrase: 'User-centric fault-tolerant solution',
+			bs: 'revolutionize end-to-end systems',
+		},
+	},
+	{
+		id: 6,
+		name: 'Mrs. Dennis Schulist',
+		title: 'Leopoldo_Corkery',
+		recipient: 'Karley_Dach@jasper.info',
+		list: {
+			name: 'Norberto Crossing',
+			suite: 'Apt. 950',
+			city: 'South Christy',
+			zipcode: '23505-1337',
+			geo: {
+				lat: '-71.4197',
+				lng: '71.7478',
 			},
-		],
+		},
+		phone: '1-477-935-8478 x6430',
+		website: 'ola.org',
+		company: {
+			name: 'Considine-Lockman',
+			catchPhrase: 'Synchronised bottom-line interface',
+			bs: 'e-enable innovative applications',
+		},
+	},
+	{
+		id: 7,
+		name: 'Kurtis Weissnat',
+		title: 'Elwyn.Skiles',
+		recipient: 'Telly.Hoeger@billy.biz',
+		list: {
+			name: 'Rex Trail',
+			suite: 'Suite 280',
+			city: 'Howemouth',
+			zipcode: '58804-1099',
+			geo: {
+				lat: '24.8918',
+				lng: '21.8984',
+			},
+		},
+		phone: '210.067.6132',
+		website: 'elvis.io',
+		company: {
+			name: 'Johns Group',
+			catchPhrase: 'Configurable multimedia task-force',
+			bs: 'generate enterprise e-tailers',
+		},
+	},
+	{
+		id: 8,
+		name: 'Nicholas Runolfsdottir V',
+		title: 'Maxime_Nienow',
+		recipient: 'Sherwood@rosamond.me',
+		list: {
+			name: 'Ellsworth Summit',
+			suite: 'Suite 729',
+			city: 'Aliyaview',
+			zipcode: '45169',
+			geo: {
+				lat: '-14.3990',
+				lng: '-120.7677',
+			},
+		},
+		phone: '586.493.6943 x140',
+		website: 'jacynthe.com',
+		company: {
+			name: 'Abernathy Group',
+			catchPhrase: 'Implemented secondary concept',
+			bs: 'e-enable extensible e-tailers',
+		},
+	},
+	{
+		id: 9,
+		name: 'Glenna Reichert',
+		title: 'Delphine',
+		recipient: 'Chaim_McDermott@dana.io',
+		list: {
+			name: 'Dayna Park',
+			suite: 'Suite 449',
+			city: 'Bartholomebury',
+			zipcode: '76495-3109',
+			geo: {
+				lat: '24.6463',
+				lng: '-168.8889',
+			},
+		},
+		phone: '(775)976-6794 x41206',
+		website: 'conrad.com',
+		company: {
+			name: 'Yost and Sons',
+			catchPhrase: 'Switchable contextually-based project',
+			bs: 'aggregate real-time technologies',
+		},
+	},
+	{
+		id: 10,
+		name: 'Clementina DuBuque',
+		title: 'Moriah.Stanton',
+		recipient: 'Rey.Padberg@karina.biz',
+		list: {
+			name: 'Kattie Turnpike',
+			suite: 'Suite 198',
+			city: 'Lebsackbury',
+			zipcode: '31428-2261',
+			geo: {
+				lat: '-38.2386',
+				lng: '57.2232',
+			},
+		},
+		phone: '024-648-3804',
+		website: 'ambrose.net',
+		company: {
+			name: 'Hoeger LLC',
+			catchPhrase: 'Centralized empowering task-force',
+			bs: 'target end-to-end models',
+		},
 	},
 ]
+export default Organizations

@@ -7,6 +7,8 @@ import HomeThreeColumns from './HomeThreeColumns'
 import SimpleSteps from '../SimpleSteps/SimpleSteps'
 import AboutUs from '../AboutUs/AboutUs'
 import WhoWeHelp from '../WhoWeHelp/WhoWeHelp'
+import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
 	return (
@@ -16,8 +18,9 @@ const Home = () => {
 			<HomeThreeColumns />
 			<SimpleSteps />
 			<AboutUs />
-			<WhoWeHelp />
-
+			{/* <WhoWeHelp /> */}
+			<Contact />
+			<Footer />
 			<Outlet />
 		</>
 	)

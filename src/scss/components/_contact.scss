@@ -1,0 +1,12 @@
+.contact {
+	height: 100vh;
+	display: flex;
+
+	&__img {
+		height: 100%;
+		width: 60%;
+		background-image: url('../../images/Background Image@2x.png');
+        background-size: cover;
+        opacity: 0.2;
+	}
+}
