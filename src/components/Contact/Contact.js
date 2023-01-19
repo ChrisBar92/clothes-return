@@ -13,8 +13,8 @@ const Contact = () => {
 				<div className="contact__box contact__box-right">
 					<Form />
 				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</>
 	)
 }

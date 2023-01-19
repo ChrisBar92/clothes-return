@@ -24,7 +24,7 @@ const Form = () => {
 				<textarea
 					name="msg"
 					id="msg"
-					placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea "></textarea>
+					placeholder="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, eaque?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, eaque?"></textarea>
 			</div>
 			<div className="btn-cta form__container-button" type="submit" name="submit">
 				Wyślij
