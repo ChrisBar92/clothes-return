@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const HomeHeader = () => {
 	return (
-		<header className="header right-margin-section">
+		<header className="header container right-margin-section">
 			<div className="header__img"></div>
 			<div className="header__box">
 				<h1 className="header__box-title heading-section">

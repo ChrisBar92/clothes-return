@@ -1,0 +1,83 @@
+.form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.heading-section {
+		padding-top: 20rem;
+		padding-bottom: 2.5rem;
+	}
+
+	&__container {
+		width: 100%;
+		padding-top: 7.7rem;
+		display: flex;
+		justify-content: space-between;
+
+		&-item {
+			display: flex;
+			flex-direction: column;
+			width: 45%;
+
+			label {
+				font-size: 1.6rem;
+				font-weight: 600;
+			}
+
+			input {
+				font-size: 1.8rem;
+				margin-top: 1.2rem;
+				height: 2.4rem;
+				border: none;
+				border-bottom: 0.075rem solid $main-text-color;
+
+				&::placeholder {
+					color: $placeholder-color;
+				}
+			}
+		}
+
+		&-message {
+			width: 100%;
+			margin: 4rem 0rem;
+			display: flex;
+			flex-direction: column;
+
+			label {
+				font-size: 1.6rem;
+				font-weight: 600;
+				margin-bottom: 1.2rem;
+			}
+
+			textarea {
+				font-size: 1.6rem;
+				margin-top: 1.2rem;
+				line-height: 2.4rem;
+				border: none;
+				border-bottom: 0.075rem solid $main-text-color;
+				height: 10rem;
+				resize: none;
+
+				&::placeholder {
+					color: $placeholder-color;
+				}
+			}
+		}
+
+		&-button {
+			position: relative;
+			width: auto;
+			height: auto;
+			padding: 1.3rem 5.2rem;
+			font-size: 1.8rem;
+            margin-left: auto;
+
+			&::before {
+				top: -120%;
+				left: -150%;
+                height: 250%;
+			}
+		}
+	}
+}

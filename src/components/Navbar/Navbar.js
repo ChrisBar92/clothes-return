@@ -4,7 +4,7 @@ import UserMenu from './UserMenu'
 
 const Navbar = () => {
 	return (
-		<nav className="nav right-margin-section" id="home">
+		<nav className="nav container right-margin-section" id="home">
 			<div className="nav__container">
 				<UserMenu />
 

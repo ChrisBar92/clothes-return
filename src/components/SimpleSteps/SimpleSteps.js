@@ -9,7 +9,7 @@ import icon4 from '../../images/Icon-4@2x.png'
 const SimpleSteps = () => {
 	return (
 		<section className="simpleSteps" id="simpleSteps">
-			<div className="simpleSteps__container">
+			<div className="simpleSteps__container container">
 				<p className="heading-section">Wystarczą 4 proste kroki</p>
 				<div className="img-decoration"></div>
 				<div className="simpleSteps__boxes">
