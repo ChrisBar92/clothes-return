@@ -18,7 +18,7 @@ const Navbar = () => {
 					<Link activeClass="active" className="nav__list-item" to="aboutUs" offset={-148} duration={300}>
 						O nas
 					</Link>
-					<Link activeClass="active" className="nav__list-item" to="whoWeHelp" offset={-148} duration={300}>
+					<Link activeClass="active" className="nav__list-item" to="helpBuildings" offset={-148} duration={300}>
 						Fundacja i organizacje
 					</Link>
 					<Link activeClass="active" className="nav__list-item" to="contact" offset={-148} duration={300}>

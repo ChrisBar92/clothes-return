@@ -6,9 +6,8 @@ import HomeHeader from './HomeHeader'
 import HomeThreeColumns from './HomeThreeColumns'
 import SimpleSteps from '../SimpleSteps/SimpleSteps'
 import AboutUs from '../AboutUs/AboutUs'
-import WhoWeHelp from '../WhoWeHelp/WhoWeHelp'
+import HelpBuildings from '../HelpBuildings/HelpBuildings'
 import Contact from '../Contact/Contact'
-import Footer from '../Footer/Footer'
 
 const Home = () => {
 	return (
@@ -18,7 +17,7 @@ const Home = () => {
 			<HomeThreeColumns />
 			<SimpleSteps />
 			<AboutUs />
-			{/* <WhoWeHelp /> */}
+			<HelpBuildings />
 			<Contact />
 			<Outlet />
 		</>

@@ -1,22 +1,29 @@
-.whoWeHelp {
+.helpBuildings {
 	padding-top: 7rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 	.heading-section {
-		padding-bottom: 4.2rem;
+		padding-bottom: 2.5rem;
 	}
 
-	&__box {
+	&__tabs {
 		padding-top: 5rem;
+		padding-bottom: 7rem;
 		width: 100%;
 		max-width: 120rem;
+		display: flex;
+		justify-content: center;
 
-		&-title {
-			display: flex;
-			justify-content: center;
-			align-items: center;
+		&-btn {
+			padding: 2.3rem 4.2rem;
+			font-size: 2.4rem;
+			text-transform: none;
+
+			&:nth-of-type(2) {
+				margin: 0 10rem;
+			}
 
 			&-recipient {
 				margin: 0rem 5rem;
