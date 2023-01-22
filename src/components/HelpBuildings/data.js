@@ -1,3 +1,4 @@
+//
 export default [
 	{
 		recipient: 'Fundacjom',
@@ -57,32 +58,32 @@ export default [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
 		list: [
 			{
-				name: 'Organizacja "Lorem Ipsum 1"',
+				name: 'Organizacja "Fajne Życie"',
 				description: '1 Quis varius quam quisque id diam vel quam elementum pulvinar.',
 				stuff: '1 Egestas, sed, tempus',
 			},
 			{
-				name: 'Organizacja "Lorem Ipsum 2"',
+				name: 'Organizacja "Długa pomoc"',
 				description: '2 Quis varius quam quisque id diam vel quam elementum pulvinar.',
 				stuff: '2 Egestas, sed, tempus',
 			},
 			{
-				name: 'Organizacja "Lorem Ipsum 3"',
+				name: 'Organizacja "Szczęśliwi ludzie"',
 				description: '3 Quis varius quam quisque id diam vel quam elementum pulvinar.',
 				stuff: '3 Egestas, sed, tempus',
 			},
 			{
-				name: 'Organizacja "Lorem Ipsum 4"',
+				name: 'Organizacja "Pomoc 24/24h"',
 				description: '4 Quis varius quam quisque id diam vel quam elementum pulvinar.',
 				stuff: '4 Egestas, sed, tempus',
 			},
 			{
-				name: 'Organizacja "Lorem Ipsum 5"',
+				name: 'Organizacja "Nigdy nie jest za późno"',
 				description: '5 Quis varius quam quisque id diam vel quam elementum pulvinar.',
 				stuff: '5 Egestas, sed, tempus',
 			},
 			{
-				name: 'Organizacja "Lorem Ipsum 6"',
+				name: 'Organizacja "Dzwoń kiedy chcesz"',
 				description: '6 Quis varius quam quisque id diam vel quam elementum pulvinar.',
 				stuff: '6 Egestas, sed, tempus',
 			},

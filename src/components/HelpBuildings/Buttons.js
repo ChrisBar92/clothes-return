@@ -3,17 +3,17 @@ import data from './data'
 
 const Buttons = ({ setActiveIndex, setOffset }) => {
 	return (
-		<div className="helpBuildings__tabs">
+		<div className="helpBuildings__places">
 			{data.map((item, index) => {
 				return (
 					<button
 						key={index}
-						className="btn-cta helpBuildings__tabs-btn"
+						className="btn-cta helpBuildings__places-btn"
 						onClick={() => {
 							setActiveIndex(index)
 							setOffset(0)
 						}}>
-                            {item.recipient}
+						{item.recipient}
 					</button>
 				)
 			})}
