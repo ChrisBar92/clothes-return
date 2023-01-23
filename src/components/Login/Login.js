@@ -5,7 +5,9 @@ const Login = () => {
 	return (
 		<div className="loginPage container">
 			<div className="loginPage__container">
-				<button className="loginPage__X">X</button>
+				<button className="loginPage__X">
+					<Link to="/">X</Link>
+				</button>
 				<h1 className="loginPage__title heading-section">Zaloguj się</h1>
 				<div className="img-decoration"></div>
 				<form className="loginPage__form">
