@@ -1,0 +1,83 @@
+.loginPage {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.1);
+
+	&__container {
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: $main-color;
+	}
+
+	&__X {
+		margin: 2rem 2rem 2rem auto;
+		padding: 1rem;
+		font-size: 1.6rem;
+		border: none;
+		outline: none;
+		background-color: transparent;
+		font-weight: bold;
+	}
+
+	&__title {
+		font-size: 4rem;
+		padding-top: 10rem;
+		padding-bottom: 2.5rem;
+	}
+
+	&__form {
+		width: 40%;
+		background-color: $background-color;
+		padding: 4rem 4.5rem;
+		margin-top: 6rem;
+
+		&-item {
+			display: flex;
+			flex-direction: column;
+			font-size: 1.6rem;
+
+			&:first-of-type {
+				padding-bottom: 3rem;
+			}
+			label {
+				font-weight: 600;
+			}
+
+			input {
+				padding: 0.5rem 0;
+				background-color: transparent;
+				border: none;
+				border-bottom: 1px solid black;
+			}
+		}
+	}
+
+	&__buttons {
+		padding: 4rem 0 8rem;
+		width: 40%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&-btn {
+			text-decoration: none;
+			color: $main-text-color;
+			font-size: 1.8rem;
+			font-weight: 300;
+			padding: 1.3rem 1.5rem;
+            transition: background-color .3s;
+
+			&:last-of-type {
+				border: 0.1rem solid $main-text-color;
+			}
+
+			&:hover {
+				background-color: $background-color;
+			}
+		}
+	}
+}

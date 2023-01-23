@@ -96,16 +96,23 @@
 		justify-content: center;
 		align-items: center;
 
-		li {
+		.previous,
+		.next {
 			font-size: 1.8rem;
 			cursor: pointer;
-			outline: none;
+
+			a {
+				padding: 1rem 0rem;
+				outline: none;
+			}
 		}
 
 		&-item {
 			margin: 0 0.5rem;
 			padding: 1rem 0;
-			
+			font-size: 1.8rem;
+			cursor: pointer;
+
 			&-link {
 				padding: 1.3rem 1.5rem;
 				&:focus {

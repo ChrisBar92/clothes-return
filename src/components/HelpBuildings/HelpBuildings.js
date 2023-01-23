@@ -14,11 +14,20 @@ const HelpBuildings = () => {
 		<section className="helpBuildings container" id="helpBuildings">
 			<p className="heading-section">Komu pomagamy?</p>
 			<div className="img-decoration"></div>
-			<Buttons setActiveIndex={setActiveIndex} activeIndex={activeIndex} setOffset={setOffset} />
+			<Buttons 
+			setActiveIndex={setActiveIndex} 			
+			setOffset={setOffset} 
+			/>
 			<div className="helpBuildings__box">
-				<PlaceDescription placeActive={placeActive} />
+				<PlaceDescription 
+				placeActive={placeActive} 
+				/>
 			</div>
-			<Pagination placeActive={placeActive} offset={offset} setOffset={setOffset} />
+			<Pagination 
+			placeActive={placeActive} 
+			offset={offset} 
+			setOffset={setOffset} 
+			/>
 		</section>
 	)
 }
