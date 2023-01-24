@@ -26,7 +26,7 @@ const Pagination = ({ placeActive, offset, setOffset }) => {
 			})}
 			{placeActive.list.length <= 3 ? null : (
 				<ReactPaginate
-					previousLabel={'Poprzednia'}
+					previousLabel={'Poprzednia'} 
 					nextLabel={'Następna'}
 					pageCount={pageCount}
 					onPageChange={changePage}
