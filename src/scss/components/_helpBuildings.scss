@@ -124,6 +124,7 @@
 	}
 }
 
-.selected {
-	border: 0.1rem solid $main-text-color;
+.active {
+	background-color: $background-color;
+	border: 0.075rem solid $main-text-color;
 }

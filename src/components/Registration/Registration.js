@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import Navbar from '../Navbar/Navbar'
 
 const Registration = () => {
 	const initialValues = {
@@ -51,60 +52,57 @@ const Registration = () => {
 	}
 
 	return (
-		<div className="registerPage container">
-			<div className="registerPage__container">
-				<button className="registerPage__X">
-					<Link to="/">X</Link>
-				</button>
-				<h1 className="registerPage__title heading-section">Załóż konto</h1>
-				<div className="img-decoration"></div>
+		<>
+			<Navbar />
+			<div className="registerPage container">
+				<div className="registerPage__container">
+					<button className="registerPage__X">
+						<Link to="/">X</Link>
+					</button>
+					<h1 className="registerPage__title heading-section">Załóż konto</h1>
+					<div className="img-decoration"></div>
 
-				<form className="registerPage__form" onSubmit={handleSubmit}>
-					<div className="registerPage__form-box">
-						<div className="registerPage__form-item">
-							<label htmlFor="email">Email</label>
-							<input 
-							value={formValues.email} 
-							onChange={handleChange} 
-							type="email" 
-							name="email" 
-							id="email" 
-							/>
-							<p className="errors">{formErrors.email}</p>
+					<form className="registerPage__form" onSubmit={handleSubmit}>
+						<div className="registerPage__form-box">
+							<div className="registerPage__form-item">
+								<label htmlFor="email">Email</label>
+								<input value={formValues.email} onChange={handleChange} type="email" name="email" id="email" />
+								<p className="errors">{formErrors.email}</p>
+							</div>
+							<div className="registerPage__form-item">
+								<label htmlFor="password">Hasło</label>
+								<input
+									value={formValues.password}
+									onChange={handleChange}
+									type="password"
+									name="password"
+									id="password"
+								/>
+								<p className="errors">{formErrors.password}</p>
+							</div>
+							<div className="registerPage__form-item">
+								<label htmlFor="password">Powtórz Hasło</label>
+								<input
+									value={formValues.confirmPassword}
+									onChange={handleChange}
+									type="password"
+									name="confirmPassword"
+									id="confirmPassword"
+								/>
+								<p className="errors">{formErrors.confirmPassword}</p>
+							</div>
 						</div>
-						<div className="registerPage__form-item">
-							<label htmlFor="password">Hasło</label>
-							<input
-								value={formValues.password}
-								onChange={handleChange}
-								type="password"
-								name="password"
-								id="password"
-							/>
-							<p className="errors">{formErrors.password}</p>
-						</div>
-						<div className="registerPage__form-item">
-							<label htmlFor="password">Powtórz Hasło</label>
-							<input
-								value={formValues.confirmPassword}
-								onChange={handleChange}
-								type="password"
-								name="confirmPassword"
-								id="confirmPassword"
-							/>
-							<p className="errors">{formErrors.confirmPassword}</p>
-						</div>
-					</div>
 
-					<div className="registerPage__buttons">
-						<button className="registerPage__buttons-btn">
-							<Link to="/logowanie">Zaloguj się</Link>
-						</button>
-						<button className="registerPage__buttons-btn">Załóż konto</button>
-					</div>
-				</form>
+						<div className="registerPage__buttons">
+							<button className="registerPage__buttons-btn">
+								<Link to="/logowanie">Zaloguj się</Link>
+							</button>
+							<button className="registerPage__buttons-btn">Załóż konto</button>
+						</div>
+					</form>
+				</div>
 			</div>
-		</div>
+		</>
 	)
 }
 

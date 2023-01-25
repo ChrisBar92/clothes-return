@@ -5,12 +5,12 @@ const UserMenu = () => {
 	return (
 		<ul className="nav__topMenu">
 			<li className="nav__topMenu-item nav__topMenu-item-login">
-				<Link className="nav__topMenu-link" to="logowanie">
+				<Link className="nav__topMenu-link" to="/logowanie">
 					Zaloguj
 				</Link>
 			</li>
 			<li className="nav__topMenu-item nav__topMenu-item-registration">
-				<Link className="nav__topMenu-link" to="rejestracja">
+				<Link className="nav__topMenu-link" to="/rejestracja">
 					Załóż konto
 				</Link>
 			</li>

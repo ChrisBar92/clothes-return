@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import Navbar from '../Navbar/Navbar'
 
 const Login = () => {
 	const initialValues = {
@@ -42,42 +43,45 @@ const Login = () => {
 	}
 
 	return (
-		<div className="loginPage container">
-			<div className="loginPage__container">
-				<button className="loginPage__X">
-					<Link to="/">X</Link>
-				</button>
-				<h1 className="loginPage__title heading-section">Zaloguj się</h1>
-				<div className="img-decoration"></div>
-				<form className="loginPage__form" onSubmit={handleSubmit}>
-					<div className="registerPage__form-box">
-						<div className="loginPage__form-item">
-							<label htmlFor="email">Email</label>
-							<input value={formValues.email} onChange={handleChange} type="email" name="email" id="email" />
-							<p className="errors">{formErrors.email}</p>
+		<>
+			<Navbar />
+			<div className="loginPage container">
+				<div className="loginPage__container">
+					<button className="loginPage__X">
+						<Link to="/">X</Link>
+					</button>
+					<h1 className="loginPage__title heading-section">Zaloguj się</h1>
+					<div className="img-decoration"></div>
+					<form className="loginPage__form" onSubmit={handleSubmit}>
+						<div className="registerPage__form-box">
+							<div className="loginPage__form-item">
+								<label htmlFor="email">Email</label>
+								<input value={formValues.email} onChange={handleChange} type="email" name="email" id="email" />
+								<p className="errors">{formErrors.email}</p>
+							</div>
+							<div className="loginPage__form-item">
+								<label htmlFor="password">Hasło</label>
+								<input
+									value={formValues.password}
+									onChange={handleChange}
+									type="password"
+									name="password"
+									id="password"
+								/>
+								<p className="errors">{formErrors.password}</p>
+							</div>
 						</div>
-						<div className="loginPage__form-item">
-							<label htmlFor="password">Hasło</label>
-							<input
-								value={formValues.password}
-								onChange={handleChange}
-								type="password"
-								name="password"
-								id="password"
-							/>
-							<p className="errors">{formErrors.password}</p>
-						</div>
-					</div>
-					<div className="loginPage__buttons">
-						<button className="loginPage__buttons-btn">
-							<Link to="/rejestracja">Załóż konto</Link>
-						</button>
+						<div className="loginPage__buttons">
+							<button className="loginPage__buttons-btn">
+								<Link to="/rejestracja">Załóż konto</Link>
+							</button>
 
-						<button className="loginPage__buttons-btn">Zaloguj się</button>
-					</div>
-				</form>
+							<button className="loginPage__buttons-btn">Zaloguj się</button>
+						</div>
+					</form>
+				</div>
 			</div>
-		</div>
+		</>
 	)
 }
 

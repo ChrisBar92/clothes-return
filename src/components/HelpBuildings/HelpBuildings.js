@@ -17,6 +17,7 @@ const HelpBuildings = () => {
 			<Buttons 
 			setActiveIndex={setActiveIndex} 			
 			setOffset={setOffset} 
+			activeIndex={activeIndex}
 			/>
 			<div className="helpBuildings__box">
 				<PlaceDescription 

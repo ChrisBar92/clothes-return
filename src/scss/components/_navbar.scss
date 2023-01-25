@@ -1,12 +1,13 @@
 .nav {
 	position: relative;
 	height: 14.8rem;
+	width: 100vw;
+	
 	
 	&__container {
 		position: fixed;
 		padding-right: 14rem;
 		width: 100%;
-		max-width: 190rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -20,7 +21,7 @@
 		flex-direction: row;
 		justify-content: flex-end;
 		font-size: 1.4rem;
-		padding: 3.7rem 0rem 1.7rem;
+		padding: 2.6rem 0rem 1.7rem;
 
 		&-item {
 			padding: 1rem;
