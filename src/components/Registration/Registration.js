@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar'
+import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'
+import {app} from "../../firebase";
+
 
 const Registration = () => {
 	const initialValues = {
@@ -22,6 +25,20 @@ const Registration = () => {
 		e.preventDefault()
 		setFormErrors(validate(formValues))
 		setIsSubmit(true)
+		
+		const auth = getAuth(app);
+		createUserWithEmailAndPassword(auth, formValues.email, formValues.password)
+			.then(userCredential => {
+				// Signed in
+				const user = userCredential.user
+				console.log({user});
+
+			})
+			.catch(error => {
+				const errorCode = error.code
+				const errorMessage = error.message
+				console.log({error})
+		})
 	}
 
 	useEffect(() => {

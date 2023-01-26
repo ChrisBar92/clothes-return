@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 const Form = () => {
 	const initialValues = {
 		name: '',
@@ -81,7 +82,10 @@ const Form = () => {
 				{Object.keys(formErrors).length === 0 && isSubmit ? (
 					<p className="sent">
 						Wiadomość została wysłana! <span>Wkrótce się skontaktujemy.</span>
-					</p>) : (''	)}
+					</p>
+				) : (
+					''
+				)}
 			</div>
 			<div className="heading-section">Skontaktuj się z nami</div>
 			<div className="img-decoration"></div>
